@@ -120,9 +120,9 @@
         <h2>Hybrid Bikes</h2>
         <div class="gallery">
             <div>
-                <img src="hybrid-bike1-1.jpg" alt="Hybrid Bike 1 View 1">
-                <img src="hybrid-bike1-2.jpg" alt="Hybrid Bike 1 View 2">
-                <img src="hybrid-bike1-3.jpg" alt="Hybrid Bike 1 View 3">
+                <img src="" alt="Hybrid Bike 1 View 1">
+                <img src="" alt="Hybrid Bike 1 View 2">
+                <img src="" alt="Hybrid Bike 1 View 3">
                 <p class="bike-info">Combines the features of road and mountain bikes for versatility.</p>
             </div>
         </div>
@@ -132,9 +132,9 @@
         <h2>Electric Bikes</h2>
         <div class="gallery">
             <div>
-                <img src="electric-bike1-1.jpg" alt="Electric Bike 1 View 1">
-                <img src="electric-bike1-2.jpg" alt="Electric Bike 1 View 2">
-                <img src="electric-bike1-3.jpg" alt="Electric Bike 1 View 3">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/68f3713e63ebe1dd8872f99ab4737f491ea8d56a/1.e.jpg" alt="Electric Bike 1 View 1">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/68f3713e63ebe1dd8872f99ab4737f491ea8d56a/2.e.jpg" alt="Electric Bike 1 View 2">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/68f3713e63ebe1dd8872f99ab4737f491ea8d56a/3.e.jpg" alt="Electric Bike 1 View 3">
                 <p class="bike-info">Eco-friendly bike with pedal assist for effortless rides.</p>
             </div>
         </div>
