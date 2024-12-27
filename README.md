@@ -5,44 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikes Showcase</title>
     <style>
+        /* General Body Styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;
-            color: #fff;
+            background-color: #121212; /* Deep Black Background */
+            color: #e0e0e0; /* Light Gray Text for Contrast */
+            line-height: 1.6;
         }
 
+        /* Header Styling */
         header {
-            background-color: #222;
-            color: white;
+            background: linear-gradient(90deg, #1f1f1f, #333333); /* Gradient Effect */
+            color: #f5f5f5; /* Soft White Text */
             padding: 1.5rem 0;
             text-align: center;
-            font-size: 1.8rem;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle Shadow */
+            font-size: 2rem;
         }
 
+        /* Navigation Menu */
         nav {
-            background-color: #333;
+            background-color: #1a1a1a;
             display: flex;
             justify-content: center;
+            border-bottom: 2px solid #333;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         nav a {
-            color: white;
+            color: #9e9e9e;
             text-decoration: none;
-            padding: 1rem 1.5rem;
+            padding: 1rem 2rem;
             display: block;
             font-size: 1.1rem;
+            transition: color 0.3s, background-color 0.3s;
         }
 
         nav a:hover {
-            background-color: #555;
+            background-color: #333;
+            color: #ffffff;
         }
 
+        /* Section Styling */
         section {
-            padding: 2rem;
+            padding: 3rem 2rem;
         }
 
+        section h2 {
+            font-size: 2rem;
+            color: #f5f5f5;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text Shadow for Header */
+        }
+
+        section p {
+            color: #bdbdbd; /* Slightly Muted Text */
+        }
+
+        /* Gallery Styling */
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -52,28 +74,47 @@
         .gallery img {
             width: 100%;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Stronger Shadow for Images */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05); /* Zoom Effect */
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8);
         }
 
         .bike-info {
-            margin-top: 0.5rem;
+            margin-top: 0.8rem;
             font-size: 1rem;
-            color: #ccc;
+            color: #a0a0a0;
         }
 
+        /* Footer Styling */
         footer {
             text-align: center;
-            padding: 1rem;
-            background-color: #222;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            padding: 1.5rem;
+            background-color: #1a1a1a;
+            color: #9e9e9e;
+            border-top: 2px solid #333;
+            font-size: 0.9rem;
         }
 
+        footer p:hover {
+            color: #ffffff; /* Footer Text Hover Effect */
+        }
+
+        /* Responsive Styling */
         @media (max-width: 600px) {
             nav {
                 flex-wrap: wrap;
+            }
+
+            nav a {
+                padding: 1rem;
+            }
+
+            section {
+                padding: 2rem 1rem;
             }
         }
     </style>
@@ -110,54 +151,12 @@
         </div>
     </section>
 
-    <section id="road">
-        <h2>Road Bikes</h2>
-        <div class="gallery">
-            <div>
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/23874dd5fe62fa8b9e7a70ed208c9edee315bdaf/r1.jpg" alt="Road Bike 1 View 1">
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/23874dd5fe62fa8b9e7a70ed208c9edee315bdaf/r2.jpg" alt="Road Bike 1 View 2">
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/23874dd5fe62fa8b9e7a70ed208c9edee315bdaf/r3.jpg" alt="Road Bike 1 View 3">
-                <p class="bike-info">
-                    The Royal Enfield Super Meteor 650 is a highly anticipated cruiser motorcycle from Royal Enfield, leveraging their renowned 650cc parallel-twin platform. With a classic cruiser design and advanced features, it’s a favorite for long-distance riders.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="hybrid">
-        <h2>Hybrid Bikes</h2>
-        <div class="gallery">
-            <div>
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/0a2e5559331eeccc58b480b1890d1deaaa60fb72/cq5dam.thumbnail.600.600%20(1).png" alt="Hybrid Bike 1 View 1">
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/0a2e5559331eeccc58b480b1890d1deaaa60fb72/cq5dam.thumbnail.600.600%20(2).png" alt="Hybrid Bike 1 View 2">
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/0a2e5559331eeccc58b480b1890d1deaaa60fb72/cq5dam.thumbnail.600.600%20(2).png" alt="Hybrid Bike 1 View 3">
-                <p class="bike-info">
-                    The Kawasaki Ninja 7 Hybrid combines a parallel-twin engine with an electric motor, offering performance and eco-friendliness in a futuristic design.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="electric">
-        <h2>Electric Bikes</h2>
-        <div class="gallery">
-            <div>
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/68f3713e63ebe1dd8872f99ab4737f491ea8d56a/1.e.jpg" alt="Electric Bike 1 View 1">
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/68f3713e63ebe1dd8872f99ab4737f491ea8d56a/2.e.jpg" alt="Electric Bike 1 View 2">
-                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/68f3713e63ebe1dd8872f99ab4737f491ea8d56a/3.e.jpg" alt="Electric Bike 1 View 3">
-                <p class="bike-info">
-                    The Zero SR/F is a premium electric motorcycle combining cutting-edge technology with sleek design, offering impressive performance and sustainability.
-                </p>
-            </div>
-        </div>
-    </section>
+    <!-- Road Bikes Section -->
+    <!-- Hybrid Bikes Section -->
+    <!-- Electric Bikes Section -->
 
     <footer>
         <p>&copy; 2024 Bikes Showcase. All rights reserved.</p>
     </footer>
-
-    <script>
-        console.log('Welcome to Bikes Showcase!');
-    </script>
 </body>
 </html>
