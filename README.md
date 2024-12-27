@@ -96,16 +96,10 @@
         <h2>Mountain Bikes</h2>
         <div class="gallery">
             <div>
-                <img src="mountain-bike1-1.jpg" alt="Mountain Bike 1 View 1">
-                <img src="mountain-bike1-2.jpg" alt="Mountain Bike 1 View 2">
-                <img src="mountain-bike1-3.jpg" alt="Mountain Bike 1 View 3">
+                <img src=" https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/d371e3dd7b11df2dfb62a6013797b68c6a723e98/v1.jpg" alt="Mountain Bike 1 View 1">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/d371e3dd7b11df2dfb62a6013797b68c6a723e98/v2.jpg " alt="Mountain Bike 1 View 2">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/d371e3dd7b11df2dfb62a6013797b68c6a723e98/v3.jpg" alt="Mountain Bike 1 View 3">
                 <p class="bike-info">Durable bike for off-road trails. Ideal for adventure enthusiasts.</p>
-            </div>
-            <div>
-                <img src="mountain-bike2-1.jpg" alt="Mountain Bike 2 View 1">
-                <img src="mountain-bike2-2.jpg" alt="Mountain Bike 2 View 2">
-                <img src="mountain-bike2-3.jpg" alt="Mountain Bike 2 View 3">
-                <p class="bike-info">Equipped with powerful suspension for rugged terrain.</p>
             </div>
         </div>
     </section>
@@ -119,12 +113,6 @@
                 <img src="road-bike1-3.jpg" alt="Road Bike 1 View 3">
                 <p class="bike-info">Lightweight and aerodynamic for smooth pavement rides.</p>
             </div>
-            <div>
-                <img src="road-bike2-1.jpg" alt="Road Bike 2 View 1">
-                <img src="road-bike2-2.jpg" alt="Road Bike 2 View 2">
-                <img src="road-bike2-3.jpg" alt="Road Bike 2 View 3">
-                <p class="bike-info">Engineered for speed and long-distance cycling.</p>
-            </div>
         </div>
     </section>
 
@@ -137,12 +125,6 @@
                 <img src="hybrid-bike1-3.jpg" alt="Hybrid Bike 1 View 3">
                 <p class="bike-info">Combines the features of road and mountain bikes for versatility.</p>
             </div>
-            <div>
-                <img src="hybrid-bike2-1.jpg" alt="Hybrid Bike 2 View 1">
-                <img src="hybrid-bike2-2.jpg" alt="Hybrid Bike 2 View 2">
-                <img src="hybrid-bike2-3.jpg" alt="Hybrid Bike 2 View 3">
-                <p class="bike-info">Comfortable design for urban commuting and leisure rides.</p>
-            </div>
         </div>
     </section>
 
@@ -154,12 +136,6 @@
                 <img src="electric-bike1-2.jpg" alt="Electric Bike 1 View 2">
                 <img src="electric-bike1-3.jpg" alt="Electric Bike 1 View 3">
                 <p class="bike-info">Eco-friendly bike with pedal assist for effortless rides.</p>
-            </div>
-            <div>
-                <img src="electric-bike2-1.jpg" alt="Electric Bike 2 View 1">
-                <img src="electric-bike2-2.jpg" alt="Electric Bike 2 View 2">
-                <img src="electric-bike2-3.jpg" alt="Electric Bike 2 View 3">
-                <p class="bike-info">High-performance battery and sleek design.</p>
             </div>
         </div>
     </section>
