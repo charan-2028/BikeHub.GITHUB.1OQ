@@ -108,9 +108,9 @@
         <h2>Road Bikes</h2>
         <div class="gallery">
             <div>
-                <img src="road-bike1-1.jpg" alt="Road Bike 1 View 1">
-                <img src="road-bike1-2.jpg" alt="Road Bike 1 View 2">
-                <img src="road-bike1-3.jpg" alt="Road Bike 1 View 3">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/23874dd5fe62fa8b9e7a70ed208c9edee315bdaf/r1.jpg" alt="Road Bike 1 View 1">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/23874dd5fe62fa8b9e7a70ed208c9edee315bdaf/r2.jpg" alt="Road Bike 1 View 2">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/23874dd5fe62fa8b9e7a70ed208c9edee315bdaf/r3.jpg" alt="Road Bike 1 View 3">
                 <p class="bike-info">Lightweight and aerodynamic for smooth pavement rides.</p>
             </div>
         </div>
