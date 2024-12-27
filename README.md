@@ -120,9 +120,9 @@
         <h2>Hybrid Bikes</h2>
         <div class="gallery">
             <div>
-                <img src="" alt="Hybrid Bike 1 View 1">
-                <img src="" alt="Hybrid Bike 1 View 2">
-                <img src="" alt="Hybrid Bike 1 View 3">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/0a2e5559331eeccc58b480b1890d1deaaa60fb72/cq5dam.thumbnail.600.600%20(1).png"alt="Hybrid Bike 1 View 1">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/0a2e5559331eeccc58b480b1890d1deaaa60fb72/cq5dam.thumbnail.600.600%20(2).png"alt="Hybrid Bike 1 View 2">
+                <img src="https://raw.githubusercontent.com/charan-2028/BikeHub.GITHUB.1OQ/0a2e5559331eeccc58b480b1890d1deaaa60fb72/cq5dam.thumbnail.600.600%20(2).png"alt="Hybrid Bike 1 View 3">
                 <p class="bike-info">Combines the features of road and mountain bikes for versatility.</p>
             </div>
         </div>
